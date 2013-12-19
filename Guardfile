@@ -13,12 +13,12 @@ module ::Guard
     end
 
     def run_on_changes(paths)
-      onlys = paths.map {|path| "-only Tests:#{File.basename(path, '.*')}" }.join(' ')
-      if onlys.empty?
+      testCase = File.basename(paths[0], '.*')
+      if testCase.empty?
         run_all
       else
-        #system("#{COMMAND} #{onlys} #{SUFFIX}")
-        run_all
+        defines = "GCC_PREPROCESSOR_DEFINITIONS='DEBUG=1 TEST_ONLY=\\\"#{testCase}\\\"'"
+        system("#{COMMAND} #{defines} #{SUFFIX}")
       end
     end
   end

@@ -1,0 +1,12 @@
+//
+//  Tests.pch
+//
+//  Created by ToKoRo on 2013-12-19.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

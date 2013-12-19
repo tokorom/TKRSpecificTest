@@ -7,68 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6B631881861A11B000F5FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B631871861A11B000F5FE9 /* Foundation.framework */; };
-		C6B6318A1861A11B000F5FE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B631891861A11B000F5FE9 /* CoreGraphics.framework */; };
-		C6B6318C1861A11B000F5FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6318B1861A11B000F5FE9 /* UIKit.framework */; };
+		C68F366F1862DF6700D65189 /* XCTestSuite+Only.m in Sources */ = {isa = PBXBuildFile; fileRef = C68F366E1862DF6700D65189 /* XCTestSuite+Only.m */; };
+		C68F36761862DF8600D65189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68F36711862DF8600D65189 /* InfoPlist.strings */; };
+		C68F36781862DF8600D65189 /* TestCaseSample1.m in Sources */ = {isa = PBXBuildFile; fileRef = C68F36751862DF8600D65189 /* TestCaseSample1.m */; };
+		C68F367C1862E6C400D65189 /* TKRTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = C68F367B1862E6C400D65189 /* TKRTestSuite.m */; };
+		C68F367E1862E7DE00D65189 /* TestCaseSample2.m in Sources */ = {isa = PBXBuildFile; fileRef = C68F367D1862E7DE00D65189 /* TestCaseSample2.m */; };
 		C6B631AA1861A11C000F5FE9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B631A91861A11C000F5FE9 /* XCTest.framework */; };
 		C6B631AB1861A11C000F5FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B631871861A11B000F5FE9 /* Foundation.framework */; };
 		C6B631AC1861A11C000F5FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6318B1861A11B000F5FE9 /* UIKit.framework */; };
-		C6B631B41861A11C000F5FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B631B21861A11C000F5FE9 /* InfoPlist.strings */; };
-		C6B631B61861A11C000F5FE9 /* TKRSpecificTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B631B51861A11C000F5FE9 /* TKRSpecificTestTests.m */; };
-		C6B631CE1861A16E000F5FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B631C11861A16E000F5FE9 /* AppDelegate.m */; };
-		C6B631CF1861A16E000F5FE9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B631C21861A16E000F5FE9 /* Main_iPad.storyboard */; };
-		C6B631D01861A16E000F5FE9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B631C41861A16E000F5FE9 /* Main_iPhone.storyboard */; };
-		C6B631D11861A16E000F5FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B631C61861A16E000F5FE9 /* InfoPlist.strings */; };
-		C6B631D21861A16E000F5FE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B631C81861A16E000F5FE9 /* Images.xcassets */; };
-		C6B631D31861A16E000F5FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B631C91861A16E000F5FE9 /* main.m */; };
-		C6B631D41861A16E000F5FE9 /* Demo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6B631CA1861A16E000F5FE9 /* Demo-Info.plist */; };
-		C6B631D51861A16E000F5FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B631CD1861A16E000F5FE9 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C6B631AD1861A11C000F5FE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6B6317C1861A11B000F5FE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6B631831861A11B000F5FE9;
-			remoteInfo = TKRSpecificTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		C6B631841861A11B000F5FE9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68F366D1862DF6700D65189 /* XCTestSuite+Only.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestSuite+Only.h"; sourceTree = "<group>"; };
+		C68F366E1862DF6700D65189 /* XCTestSuite+Only.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestSuite+Only.m"; sourceTree = "<group>"; };
+		C68F36721862DF8600D65189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C68F36731862DF8600D65189 /* Tests.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests.pch; sourceTree = "<group>"; };
+		C68F36741862DF8600D65189 /* Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tests.plist; sourceTree = "<group>"; };
+		C68F36751862DF8600D65189 /* TestCaseSample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCaseSample1.m; sourceTree = "<group>"; };
+		C68F367A1862E6C400D65189 /* TKRTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRTestSuite.h; sourceTree = "<group>"; };
+		C68F367B1862E6C400D65189 /* TKRTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRTestSuite.m; sourceTree = "<group>"; };
+		C68F367D1862E7DE00D65189 /* TestCaseSample2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCaseSample2.m; sourceTree = "<group>"; };
 		C6B631871861A11B000F5FE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C6B631891861A11B000F5FE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C6B6318B1861A11B000F5FE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C6B631A81861A11C000F5FE9 /* TKRSpecificTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKRSpecificTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B631A81861A11C000F5FE9 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B631A91861A11C000F5FE9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C6B631B11861A11C000F5FE9 /* TKRSpecificTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKRSpecificTestTests-Info.plist"; sourceTree = "<group>"; };
-		C6B631B31861A11C000F5FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C6B631B51861A11C000F5FE9 /* TKRSpecificTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKRSpecificTestTests.m; sourceTree = "<group>"; };
-		C6B631C01861A16E000F5FE9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C6B631C11861A16E000F5FE9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6B631C31861A16E000F5FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		C6B631C51861A16E000F5FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		C6B631C71861A16E000F5FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C6B631C81861A16E000F5FE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C6B631C91861A16E000F5FE9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C6B631CA1861A16E000F5FE9 /* Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
-		C6B631CB1861A16E000F5FE9 /* Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
-		C6B631CC1861A16E000F5FE9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6B631CD1861A16E000F5FE9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6B631811861A11B000F5FE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6B6318A1861A11B000F5FE9 /* CoreGraphics.framework in Frameworks */,
-				C6B6318C1861A11B000F5FE9 /* UIKit.framework in Frameworks */,
-				C6B631881861A11B000F5FE9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6B631A51861A11C000F5FE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,11 +48,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C68F366C1862DF6700D65189 /* TKRSpecificTest */ = {
+			isa = PBXGroup;
+			children = (
+				C68F366D1862DF6700D65189 /* XCTestSuite+Only.h */,
+				C68F366E1862DF6700D65189 /* XCTestSuite+Only.m */,
+				C68F367A1862E6C400D65189 /* TKRTestSuite.h */,
+				C68F367B1862E6C400D65189 /* TKRTestSuite.m */,
+			);
+			path = TKRSpecificTest;
+			sourceTree = "<group>";
+		};
+		C68F36701862DF8600D65189 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C68F36711862DF8600D65189 /* InfoPlist.strings */,
+				C68F36731862DF8600D65189 /* Tests.pch */,
+				C68F36741862DF8600D65189 /* Tests.plist */,
+				C68F36751862DF8600D65189 /* TestCaseSample1.m */,
+				C68F367D1862E7DE00D65189 /* TestCaseSample2.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		C6B6317B1861A11B000F5FE9 = {
 			isa = PBXGroup;
 			children = (
-				C6B631BF1861A16E000F5FE9 /* Demo */,
-				C6B631AF1861A11C000F5FE9 /* TKRSpecificTestTests */,
+				C68F366C1862DF6700D65189 /* TKRSpecificTest */,
+				C68F36701862DF8600D65189 /* Tests */,
 				C6B631861861A11B000F5FE9 /* Frameworks */,
 				C6B631851861A11B000F5FE9 /* Products */,
 			);
@@ -95,8 +84,7 @@
 		C6B631851861A11B000F5FE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6B631841861A11B000F5FE9 /* Demo.app */,
-				C6B631A81861A11C000F5FE9 /* TKRSpecificTestTests.xctest */,
+				C6B631A81861A11C000F5FE9 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,73 +100,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6B631AF1861A11C000F5FE9 /* TKRSpecificTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				C6B631B51861A11C000F5FE9 /* TKRSpecificTestTests.m */,
-				C6B631B01861A11C000F5FE9 /* Supporting Files */,
-			);
-			path = TKRSpecificTestTests;
-			sourceTree = "<group>";
-		};
-		C6B631B01861A11C000F5FE9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6B631B11861A11C000F5FE9 /* TKRSpecificTestTests-Info.plist */,
-				C6B631B21861A11C000F5FE9 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C6B631BF1861A16E000F5FE9 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				C6B631C01861A16E000F5FE9 /* AppDelegate.h */,
-				C6B631C11861A16E000F5FE9 /* AppDelegate.m */,
-				C6B631C21861A16E000F5FE9 /* Main_iPad.storyboard */,
-				C6B631C41861A16E000F5FE9 /* Main_iPhone.storyboard */,
-				C6B631C81861A16E000F5FE9 /* Images.xcassets */,
-				C6B631C91861A16E000F5FE9 /* main.m */,
-				C6B631CC1861A16E000F5FE9 /* ViewController.h */,
-				C6B631CD1861A16E000F5FE9 /* ViewController.m */,
-				C6B631D61861A179000F5FE9 /* Supporting Files */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		C6B631D61861A179000F5FE9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6B631C61861A16E000F5FE9 /* InfoPlist.strings */,
-				C6B631CA1861A16E000F5FE9 /* Demo-Info.plist */,
-				C6B631CB1861A16E000F5FE9 /* Demo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6B631831861A11B000F5FE9 /* Demo */ = {
+		C6B631A71861A11C000F5FE9 /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6B631B91861A11C000F5FE9 /* Build configuration list for PBXNativeTarget "Demo" */;
-			buildPhases = (
-				C6B631801861A11B000F5FE9 /* Sources */,
-				C6B631811861A11B000F5FE9 /* Frameworks */,
-				C6B631821861A11B000F5FE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Demo;
-			productName = TKRSpecificTest;
-			productReference = C6B631841861A11B000F5FE9 /* Demo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		C6B631A71861A11C000F5FE9 /* TKRSpecificTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6B631BC1861A11C000F5FE9 /* Build configuration list for PBXNativeTarget "TKRSpecificTestTests" */;
+			buildConfigurationList = C6B631BC1861A11C000F5FE9 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				C6B631A41861A11C000F5FE9 /* Sources */,
 				C6B631A51861A11C000F5FE9 /* Frameworks */,
@@ -187,11 +114,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				C6B631AE1861A11C000F5FE9 /* PBXTargetDependency */,
 			);
-			name = TKRSpecificTestTests;
+			name = Tests;
 			productName = TKRSpecificTestTests;
-			productReference = C6B631A81861A11C000F5FE9 /* TKRSpecificTestTests.xctest */;
+			productReference = C6B631A81861A11C000F5FE9 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,93 +147,41 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6B631831861A11B000F5FE9 /* Demo */,
-				C6B631A71861A11C000F5FE9 /* TKRSpecificTestTests */,
+				C6B631A71861A11C000F5FE9 /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C6B631821861A11B000F5FE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6B631D01861A16E000F5FE9 /* Main_iPhone.storyboard in Resources */,
-				C6B631D21861A16E000F5FE9 /* Images.xcassets in Resources */,
-				C6B631D11861A16E000F5FE9 /* InfoPlist.strings in Resources */,
-				C6B631CF1861A16E000F5FE9 /* Main_iPad.storyboard in Resources */,
-				C6B631D41861A16E000F5FE9 /* Demo-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6B631A61861A11C000F5FE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B631B41861A11C000F5FE9 /* InfoPlist.strings in Resources */,
+				C68F36761862DF8600D65189 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6B631801861A11B000F5FE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6B631D51861A16E000F5FE9 /* ViewController.m in Sources */,
-				C6B631D31861A16E000F5FE9 /* main.m in Sources */,
-				C6B631CE1861A16E000F5FE9 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6B631A41861A11C000F5FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B631B61861A11C000F5FE9 /* TKRSpecificTestTests.m in Sources */,
+				C68F367E1862E7DE00D65189 /* TestCaseSample2.m in Sources */,
+				C68F366F1862DF6700D65189 /* XCTestSuite+Only.m in Sources */,
+				C68F367C1862E6C400D65189 /* TKRTestSuite.m in Sources */,
+				C68F36781862DF8600D65189 /* TestCaseSample1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C6B631AE1861A11C000F5FE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C6B631831861A11B000F5FE9 /* Demo */;
-			targetProxy = C6B631AD1861A11C000F5FE9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		C6B631B21861A11C000F5FE9 /* InfoPlist.strings */ = {
+		C68F36711862DF8600D65189 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C6B631B31861A11C000F5FE9 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C6B631C21861A16E000F5FE9 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6B631C31861A16E000F5FE9 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		C6B631C41861A16E000F5FE9 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6B631C51861A16E000F5FE9 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C6B631C61861A16E000F5FE9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6B631C71861A16E000F5FE9 /* en */,
+				C68F36721862DF8600D65189 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -389,32 +263,6 @@
 			};
 			name = Release;
 		};
-		C6B631BA1861A11C000F5FE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
-				INFOPLIST_FILE = "Demo/Demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		C6B631BB1861A11C000F5FE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
-				INFOPLIST_FILE = "Demo/Demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		C6B631BD1861A11C000F5FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -426,12 +274,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				GCC_PREFIX_HEADER = Tests/Tests.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TKRSpecificTestTests/TKRSpecificTestTests-Info.plist";
+				INFOPLIST_FILE = Tests/Tests.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -449,8 +297,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
-				INFOPLIST_FILE = "TKRSpecificTestTests/TKRSpecificTestTests-Info.plist";
+				GCC_PREFIX_HEADER = Tests/Tests.pch;
+				INFOPLIST_FILE = Tests/Tests.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -469,21 +317,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6B631B91861A11C000F5FE9 /* Build configuration list for PBXNativeTarget "Demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6B631BA1861A11C000F5FE9 /* Debug */,
-				C6B631BB1861A11C000F5FE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		C6B631BC1861A11C000F5FE9 /* Build configuration list for PBXNativeTarget "TKRSpecificTestTests" */ = {
+		C6B631BC1861A11C000F5FE9 /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6B631BD1861A11C000F5FE9 /* Debug */,
 				C6B631BE1861A11C000F5FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

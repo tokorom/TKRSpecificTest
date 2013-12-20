@@ -9,4 +9,11 @@ Pod::Spec.new do |s|
   s.source_files   = 'TKRSpecificTest/*'
   s.framework      = 'XCTest', 'SenTestingKit'
   s.requires_arc   = true
+
+  s.prefix_header_contents = <<EOC
+#ifdef __OBJC__
+    #import "XCTestSuite+Only.h"
+#endif
+EOC
+
 end
